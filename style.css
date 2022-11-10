@@ -1,0 +1,76 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+body{
+    background-image: url('./images/backgroundscreen.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#viewer{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    height: 51%;
+    width: 59%;
+    top: 10%;
+    left: 23%;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+#endVisit {
+    max-width: 400px;
+    max-height: 200px;
+    min-width: 100px;
+    min-height: 50px;
+    background: rgba(255, 255, 255, 0.813);
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 5px;
+}
+
+.chaptersBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 9999;
+    margin-left: 477px;
+    margin-top: 533px;
+    width: 550px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(150, 149, 149);
+    gap: 20px;
+}
+
+.chaptersButtons{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: brown;
+}
+
+.chaptersButtons:hover{
+    cursor:pointer;
+}
+
+.circular-thumbnails{
+    margin-top: 3.5px;
+    margin-left: 2.5px;
+    width: 45px; /* you can use % */
+    height: 44.5px;
+    border-radius: 60%;
+}
+

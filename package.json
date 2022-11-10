@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "es6": "^0.0.7",
+    "local-web-server": "^5.2.1",
+    "node": "^19.0.0",
+    "node-dev-env": "^2.1.0",
+    "panolens-three": "^1.0.14",
+    "three": "^0.146.0"
+  },
+  "name": "panolensjsLibraryTesting"
+}
